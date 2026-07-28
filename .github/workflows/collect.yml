@@ -18,7 +18,7 @@ jobs:
     name: Collect repository traffic
 
     # Prevent the public template itself from collecting data.
-    if: github.repository != 'ascheriit-dkp/github-traffic-archive-archive'
+    if: github.repository != 'ascheriit-dkp/github-traffic-archive-template'
 
     runs-on: ubuntu-latest
     timeout-minutes: 20
