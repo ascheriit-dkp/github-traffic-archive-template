@@ -579,6 +579,8 @@ def render_global_dashboard(
         "Private long-term analytics for all public "
         "repositories owned by this GitHub account.",
         "",
+        "[Setup and maintenance guide](docs/SETUP.md)",
+        "",
         f"**Repositories tracked:** "
         f"{len(repository_rows)}  ",
         f"**Stored period:** `{first_date}` "
@@ -638,6 +640,8 @@ def render_global_dashboard(
         ),
         "",
         "---",
+        "",
+        "[Setup and maintenance guide](docs/SETUP.md)",
         "",
         "_Generated automatically by "
         "`github-traffic-archive`._",
