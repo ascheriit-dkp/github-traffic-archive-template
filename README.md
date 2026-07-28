@@ -76,12 +76,13 @@ The demo exposes the same files created in a real private archive:
 
 ## Setup
 
-The installation takes four main steps:
+The installation takes five main steps:
 
 1. Click **Use this template**.
-2. Create a new **private** repository.
-3. Create a fine-grained token with `Administration: Read-only`.
-4. Save it as the `TRAFFIC_TOKEN` Actions secret and run the workflow.
+2. Select **Create a new repository**.
+3. Leave **Include all branches** unchecked and create a **private** repository.
+4. Create a fine-grained token with `Administration: Read-only`.
+5. Save it as the `TRAFFIC_TOKEN` Actions secret and run the workflow.
 
 No username needs to be entered in the configuration. The workflow detects the owner of the archive automatically.
 
