@@ -1,0 +1,9 @@
+repositories:
+  # Track repositories forked from other accounts.
+  include_forks: false
+
+  # Track archived repositories.
+  include_archived: false
+
+  # Repository names to ignore.
+  exclude: []
