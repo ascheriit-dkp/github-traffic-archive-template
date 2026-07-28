@@ -289,6 +289,9 @@ def render_repository_readme(
         "",
         f"[Open the public repository]({repository.html_url})",
         "",
+        "[Back to combined dashboard](../../../README.md) · "
+        "[Setup and maintenance guide](../../../docs/SETUP.md)",
+        "",
         f"**Tracked period:** `{first_date}` to `{last_date}`  ",
         f"**Last collection:** `{collection_date} UTC`",
         "",
@@ -362,6 +365,9 @@ def render_repository_readme(
         [
             "",
             "---",
+            "",
+            "[Back to combined dashboard](../../../README.md) · "
+            "[Setup and maintenance guide](../../../docs/SETUP.md)",
             "",
             "_Generated automatically by "
             "`github-traffic-archive`._",
