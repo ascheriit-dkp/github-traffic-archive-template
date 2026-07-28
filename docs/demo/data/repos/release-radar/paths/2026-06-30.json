@@ -1,0 +1,25 @@
+{
+  "repository": "release-radar",
+  "collected_at": "2026-06-30T12:00:00Z",
+  "window": "rolling_14_days",
+  "items": [
+    {
+      "path": "/demo-user/release-radar",
+      "title": "Overview",
+      "count": 226,
+      "uniques": 174
+    },
+    {
+      "path": "/demo-user/release-radar/blob/main/README.md",
+      "title": "README",
+      "count": 91,
+      "uniques": 69
+    },
+    {
+      "path": "/demo-user/release-radar/releases",
+      "title": "Releases",
+      "count": 53,
+      "uniques": 44
+    }
+  ]
+}
