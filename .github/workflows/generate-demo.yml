@@ -30,7 +30,7 @@ jobs:
 
     # The demo belongs only to the original public template.
     # Repositories created from the template will skip this workflow.
-    if: github.repository == 'ascheriit-dkp/github-traffic-archive-archive'
+    if: github.repository == 'ascheriit-dkp/github-traffic-archive-template'
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
