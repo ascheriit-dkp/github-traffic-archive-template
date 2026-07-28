@@ -5,7 +5,7 @@ on:
 
   push:
     branches:
-      - main
+      - demo
     paths:
       - "src/generate_demo.py"
       - "src/aggregate.py"
