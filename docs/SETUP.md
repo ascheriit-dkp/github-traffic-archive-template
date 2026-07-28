@@ -43,7 +43,11 @@ You need:
    ```
 
 6. Set the repository visibility to **Private**.
-7. Click **Create repository**.
+7. Leave **Include all branches** unchecked.
+8. Click **Create repository**.
+
+> [!NOTE]
+> The public demonstration is stored on a separate `demo` branch. Leaving **Include all branches** unchecked ensures that only the minimal archive files are copied into your private repository.
 
 > [!IMPORTANT]
 > Keep the generated repository private. It will contain your traffic history, referring sites, and most-viewed repository paths.
