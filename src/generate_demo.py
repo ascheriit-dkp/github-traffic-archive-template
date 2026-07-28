@@ -25,7 +25,7 @@ DEMO_OWNER = "demo-user"
 PROJECT_URL = (
     "https://github.com/"
     "ascheriit-dkp/"
-    "github-traffic-archive-archive"
+    "github-traffic-archive-template"
 )
 
 START_DATE = date(2026, 4, 1)
