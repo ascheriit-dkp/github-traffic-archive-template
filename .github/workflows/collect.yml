@@ -39,17 +39,6 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
-      - name: Remove public template-only files
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          rm -rf docs/demo
-          rm -f src/generate_demo.py
-          rm -f .github/workflows/generate-demo.yml
-
-          echo "Public demo files removed from the private archive."
-
       - name: Collect traffic data
         env:
           TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
